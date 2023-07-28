@@ -1,0 +1,57 @@
+
+/* 
+COLORS
+Light gray: #d6e2f0 
+Grayish blue: #7b879d
+Dark blue: #1f3251
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
+    background-color: #d6e2f0;
+    color: #7b879d;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.card {
+    width: 70%;
+    margin: 5em auto;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    max-width: 600px;
+}
+
+.text {
+    padding: 0 2em;
+}
+
+.heading {
+    color: #1f3251;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 900px) {
+
+    body {
+        font-size: 1.1rem;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+}
